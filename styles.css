@@ -29,18 +29,22 @@ header > div {
     color: black;
   }
   #busqueda{
-   
+    background-image: url(images/magnifying-glass.png);
+   border: none;
     width: 800px;
     height: 30px;
     justify-content: center;
     justify-items: center;
     padding-left: 20px;
     background-color:rgba(0,0,0,.05);
+    padding-right: 30px;
   
   }
   .botonBuscar{
     background-color: #fb3e44;
     height: 30px;
+    border: none;
+  margin-right: auto;
 
 
   }
@@ -151,11 +155,8 @@ header > div {
 }
 .crear{
   display: flex;
-  justify-items: center;
   justify-content: center;
-  flex-direction: column;
-
-  
+  justify-items:right;
   background-color: black;
   padding: 1px;
   font-weight: 200;
