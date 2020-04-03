@@ -28,25 +28,55 @@ header > div {
     text-decoration: none;
     color: black;
   }
+  .formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+  }
+  .lupa{
+  width: 20px;
+	border: 0px;
+
+  }
   #busqueda{
-    background-image: url(images/magnifying-glass.png);
+ 
    border: none;
-    width: 800px;
-    height: 30px;
+    width: 700px;
+    height: 35px;
     justify-content: center;
     justify-items: center;
     padding-left: 20px;
     background-color:rgba(0,0,0,.05);
-    padding-right: 30px;
+    padding-right: 70px;
+    margin-right: 0px;
   
   }
   .botonBuscar{
-    background-color: #fb3e44;
+  background-color: #fb3e44;
+  height: 35px;
+  border: none;
+  padding-left: 10px;
+  margin-left: 0px;
+
+
+  }
+  .joing1{
     height: 30px;
+    width: 60px;
+    margin-right: 10px;
+    margin-left: 30px;
+    background: white;
+    border: 1px solid lightgray;
+    
+   
+
+  }
+  .logIn{
     border: none;
-  margin-right: auto;
-
-
+    background: none
+    ;
   }
   
   .blackHeart {
@@ -156,7 +186,7 @@ header > div {
 .crear{
   display: flex;
   justify-content: center;
-  justify-items:right;
+  justify-items: center;
   background-color: black;
   padding: 1px;
   font-weight: 200;
