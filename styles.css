@@ -181,6 +181,7 @@ header > div {
   margin-left: 3rem;
   margin-right: 3rem;
   margin-top: 20px;
+  padding-bottom: 0;
 
 }
 .contenido img{
@@ -195,8 +196,15 @@ header > div {
 .crear{
   display: flex;
   justify-content: center;
-  justify-items: center;
-  flex-direction: column;
+  justify-items:self-start;
+  align-items: flex-start;
+  padding-top: 0;
+  padding-bottom: 500px;
+  
+
+}
+.botonCrear{
+ 
   background-color: black;
   padding: 1px;
   font-weight: 200;
@@ -206,4 +214,6 @@ header > div {
   height: 50px;
   color:white;
   text-decoration: none;
+  
+  
 }
