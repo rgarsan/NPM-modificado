@@ -31,16 +31,16 @@ header > div {
     text-decoration: none;
     color: black;
   }
-  .formulario{
+  .form{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
-  .formulario .logo{
+  .form .logo{
     margin-left:none;
     margin-right: none;
   }
-  .formulario .lupa{
+  .form .lupa{
   position: absolute;
   top: 9%;
   margin-left: 17px;
@@ -110,10 +110,10 @@ header > div {
     margin-left: 3rem;
     margin-right: 3rem;
   }
-  #primera heading{
+  #first-section heading{
     font-size: 40px;
   }
-  #primera article{
+  #first-section article{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -155,7 +155,7 @@ header > div {
       justify-content: center;
       text-align: center;
       flex-direction: column;
-      height: 600px;
+      height: 400px;
       padding:10px 60px 10px 60px;
       margin-left: 3rem;
       margin-right: 3rem;
@@ -174,7 +174,7 @@ header > div {
     margin-right: 120px;
 
   }
-.contenido{
+.content{
 
   display:flex;
   justify-content: center;
@@ -188,16 +188,16 @@ header > div {
   padding-bottom: 0px;
 
 }
-.contenido img{
+.content img{
   display: flex;
   justify-content: space-around;
   width: 20px;
   height: 20px;
 }
-.contenido h4{
+.content h4{
   color:  #ED1C24;
 }
-.crear{
+.create-org{
   width: 100%;
   height:auto;
   display: flex;
@@ -209,7 +209,7 @@ header > div {
   
 
 }
-.botonCrear{
+.create-button{
   background-color: black;
   padding-top: 10px ;
   font-weight: 200;
